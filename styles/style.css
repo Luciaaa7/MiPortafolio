@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background: rgb(253, 224, 170);
+    height: auto;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(168, 116, 81);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+font-size: 18px;
+color: black;
+text-decoration: none;
+font-weight: 500;
+margin-left: 35px;
+transition: .6s;
+}
+
+.navbar a:hover{
+color: rgb(255, 145, 182);
+
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.home-content{
+    max-width: 400px;
+    margin-left: 140px;
+    text-align: center;
+}
+
+.home-content p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+    color: black;
+}
+
+.home-image{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.home-image img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+
+.contact-btn{
+    display: inline-block;
+    padding: 12px;
+    background-color: rgb(255, 204, 137);
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 25px;
+    transition:background-color 0.3s ease, color 0.3 ease;
+    margin-top: 20px;
+}
+
+.contact-btn:hover{
+    background-color: rgb(231, 166, 91) ;
+    color: rgb(228, 52, 111);
+    border-color: black;
+}
+
+.footer p{
+    margin: 10px;
+    font-size: 18px;
+}
+
+.footer{
+    background-color: rgb(214, 136, 84) ;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.social-icons a{
+    margin:0 15px;
+    color: black;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover{
+    color:rgb(228, 52, 111) ;
+}
+
